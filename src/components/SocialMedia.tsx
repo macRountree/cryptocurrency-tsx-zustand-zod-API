@@ -3,7 +3,9 @@ import {FaGithub, FaLinkedin, FaLaptopCode, FaWhatsapp} from 'react-icons/fa6';
 export const SocialMedia = () => {
   return (
     <div className="social-container">
-      <h2 className="social-title">Social Media</h2>
+      <h2 className="social-title">
+        Social <span>Media</span>
+      </h2>
       <div className="social-icons">
         <a
           href="https://portfoliomacrountree.netlify.app/"

@@ -209,6 +209,10 @@ body {
   color: var(--black);
 }
 
+.social-title span {
+  color: var(--primary);
+}
+
 .social-icons {
   display: flex;
   justify-content: center;
