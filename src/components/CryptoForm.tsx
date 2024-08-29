@@ -69,7 +69,7 @@ export const CryptoForm = () => {
             </option>
           ))}
         </select>
-        <input type="submit" value="Check it" />
+        <input type="submit" value="Check Quote" />
       </div>
     </form>
   );

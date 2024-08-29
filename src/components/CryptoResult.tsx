@@ -1,6 +1,7 @@
 import {useMemo} from 'react';
 import {useCryptoStore} from '../store/store';
 import {Spinner} from './Spinner';
+import {SocialMedia} from './SocialMedia';
 
 export const CryptoResult = () => {
   const result = useCryptoStore(state => state.result);
@@ -47,6 +48,7 @@ export const CryptoResult = () => {
           </>
         )
       )}
+      <SocialMedia />
     </div>
   );
 };
