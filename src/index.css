@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-image: url('./bg_bitcoin.jpg');
+  background-image: url('/bg_bitcoin.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
